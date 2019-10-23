@@ -12,7 +12,7 @@ with open(os.path.join(here, 'kernel_gateway', '_version.py')) as f:
     exec(f.read(), {}, version_ns)
 
 setup_args = dict(
-    name='jupyter_kernel_gateway',
+    name='jupyter-kernel-gateway',
     author='Jupyter Development Team',
     author_email='jupyter@googlegroups.com',
     url='http://github.com/jupyter-incubator/kernel_gateway',
